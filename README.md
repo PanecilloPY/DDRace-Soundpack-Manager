@@ -80,11 +80,3 @@ pyinstaller --noconsole --onefile --icon="tu_icono.ico" gestor_audios.py
 ## Licencia
 
 Incluye la licencia que prefieras (por ejemplo MIT). Si no se especifica, se asume "Todos los derechos reservados".
-
----
-
-Si quieres, puedo:
-- Commitear el `README.md` y empujarlo a GitHub ahora.
-- Crear el repositorio remoto por ti (si me confirmas nombre y método: `gh` o URL remota).
-
-Dime cómo prefieres proceder.
