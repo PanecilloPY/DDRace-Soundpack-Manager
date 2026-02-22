@@ -66,7 +66,7 @@ pip install pyinstaller
 2. Desde la raíz del proyecto genera el ejecutable con el siguiente comando (reemplaza `tu_icono.ico` por la ruta a tu icono):
 
 ```powershell
-pyinstaller --noconsole --onefile --icon="tu_icono.ico" gestor_audios.py
+pyinstaller --noconsole --onefile --add-data "boton.mp3;." --add-data "pop.mp3;." --add-data "delete.mp3;." --icon="tu_icono.ico" gestor_audios.py
 ```
 
 3. El ejecutable resultante se ubicará en `dist\gestor_audios.exe`. Si necesitas incluir archivos adicionales o recursos, edita el archivo `.spec` que genera `pyinstaller` y vuelve a construir.
